@@ -26,7 +26,7 @@ def main(stdscr):
         if key == curses.KEY_RIGHT:
             swipe.swipe("left")
         if key == 27:
-            swipe.swipe_from_top()
+            swipe.swipe("top")
 
         stdscr.refresh()
 
